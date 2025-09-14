@@ -24,8 +24,8 @@ class LoadAnnotationsDiff(object):
 
         self.cutouts = []
         self.cutout_class = 0
-        self.cutout_dataset_path = '/home/jmr/Desktop/jmr/ovam/dataset_trains/'
-        self.cutout_dataset_path2= '/home/jmr/Desktop/jmr/ovam/dataset/'
+        self.cutout_dataset_path = '/home/jmr/Desktop/jmr/ucg/dataset_trains/'
+        self.cutout_dataset_path2= '/home/jmr/Desktop/jmr/ucg/dataset/'
         #Load here the diffusers list
         with open(self.cutout_dataset_path+"train.txt",'r') as file:
             self.cutouts = file.readlines()

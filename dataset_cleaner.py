@@ -133,7 +133,6 @@ def get_contour_energy(mask):
     contour_energy = np.sum(np.abs(np.diff(angles)))
     return contour_energy
 
-
 def get_boundary_pixels(mask):
     # Convert to uint8 if not already in correct format
     if mask.dtype != np.uint8:

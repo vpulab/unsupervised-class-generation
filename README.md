@@ -11,7 +11,7 @@ In this work, we propose an unsupervised pipeline that leverages Stable Diffusio
 <img src="figures/creation_pipeline.png" style="background-color: white;" alt="Alt text">
 
 ## Note
-**Huge thanks to [@pablomm](https://github.com/pablomm) for his ovam work and code, which we partially use as base for ours.**
+**Huge thanks to [@pablomm](https://github.com/pablomm) for his ovam work and code, which we partially use as base for ours. All the code in /ovam folder belongs to him.**
 
 ## Installation
 Create a new virtual or conda environment (if applicable) and activate it. For example, using `venv`:
