@@ -8,7 +8,7 @@ Semantic segmentation is a computer vision task where classification is performe
 
 In this work, we propose an unsupervised pipeline that leverages Stable Diffusion and Segment Anything Module to generate class examples with an associated segmentation mask, and a method to integrate generated cutouts for novel classes in semantic segmentation datasets, all with minimal user input. Our approach aims to improve the performance of unsupervised domain adaptation methods by introducing novel samples into the training data without modifications to the underlying algorithms. With our methods, we show how models can not only effectively learn how to segment novel classes, with an average performance of 51% IoU, but also reduce errors for other, already existing classes, reaching a higher performance level overall.
 
-<img src="figures/creation_pipeline.png" style="background-color: white;" alt="Alt text">
+<img src="figures/creation_pipeline.png" style="background-color: #FAF9F6;" alt="Alt text">
 
 ## Note
 **Huge thanks to [@pablomm](https://github.com/pablomm) for his ovam work and code, which we partially use as base for ours. All the code in /ovam folder belongs to him.**
